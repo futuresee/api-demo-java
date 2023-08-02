@@ -174,8 +174,8 @@ public class HttpUtil {
             , long time) {
         try {
             StringBuilder sb = new StringBuilder();
-            sb.append("xt-validate-appkey=").append(apiKey).append("&");
-            sb.append("xt-validate-timestamp=").append(time);
+            sb.append("validate-appkey=").append(apiKey).append("&");
+            sb.append("validate-timestamp=").append(time);
             sb.append("#").append(url);
             if (queryParams != null && !queryParams.isEmpty()) {
                 Set<String> keySet = queryParams.keySet();
