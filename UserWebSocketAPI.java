@@ -24,10 +24,10 @@ public class UserWebSocketAPI {
         // 签名
         Map<String, String> headers = new HashMap<>();
         long time = System.currentTimeMillis();
-        headers.put("xt-validate-timestamp", String.valueOf(time));
-        headers.put("xt-validate-appkey", apikey);
-        headers.put("xt-validate-algorithms", "HmacSHA256");
-        headers.put("xt-validate-signature", HttpUtil.getContractSignature(
+        headers.put("validate-timestamp", String.valueOf(time));
+        headers.put("validate-appkey", apikey);
+        headers.put("validate-algorithms", "HmacSHA256");
+        headers.put("validate-signature", HttpUtil.getContractSignature(
                 path, params, null, apikey, secretKey, time
         ));
         return HttpUtil.get(USER_URL + path, headers, params);

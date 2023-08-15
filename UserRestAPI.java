@@ -21,10 +21,10 @@ public class UserRestAPI {
         // 签名
         Map<String, String> headers = new HashMap<>();
         long time = System.currentTimeMillis();
-        headers.put("xt-validate-timestamp", String.valueOf(time));
-        headers.put("xt-validate-appkey", apikey);
-        headers.put("xt-validate-algorithms", "HmacSHA256");
-        headers.put("xt-validate-signature", HttpUtil.getContractSignature(
+        headers.put("validate-timestamp", String.valueOf(time));
+        headers.put("validate-appkey", apikey);
+        headers.put("validate-algorithms", "HmacSHA256");
+        headers.put("validate-signature", HttpUtil.getContractSignature(
                 path, params, null, apikey, secretKey, time
         ));
         String text = HttpUtil.get(URL + path, headers, params);
@@ -38,10 +38,10 @@ public class UserRestAPI {
         // 签名
         Map<String, String> headers = new HashMap<>();
         long time = System.currentTimeMillis();
-        headers.put("xt-validate-timestamp", String.valueOf(time));
-        headers.put("xt-validate-appkey", apikey);
-        headers.put("xt-validate-algorithms", "HmacSHA256");
-        headers.put("xt-validate-signature", HttpUtil.getContractSignature(
+        headers.put("validate-timestamp", String.valueOf(time));
+        headers.put("validate-appkey", apikey);
+        headers.put("validate-algorithms", "HmacSHA256");
+        headers.put("validate-signature", HttpUtil.getContractSignature(
                 path, params, null, apikey, secretKey, time
         ));
         String text = HttpUtil.get(URL + path, headers, params);
@@ -56,10 +56,10 @@ public class UserRestAPI {
         // 签名
         Map<String, String> headers = new HashMap<>();
         long time = System.currentTimeMillis();
-        headers.put("xt-validate-timestamp", String.valueOf(time));
-        headers.put("xt-validate-appkey", apikey);
-        headers.put("xt-validate-algorithms", "HmacSHA256");
-        headers.put("xt-validate-signature", HttpUtil.getContractSignature(
+        headers.put("validate-timestamp", String.valueOf(time));
+        headers.put("validate-appkey", apikey);
+        headers.put("validate-algorithms", "HmacSHA256");
+        headers.put("validate-signature", HttpUtil.getContractSignature(
                 path, null, body, apikey, secretKey, time
         ));
         String text = HttpUtil.post(URL + path, headers, body);
@@ -75,10 +75,10 @@ public class UserRestAPI {
         // 签名
         Map<String, String> headers = new HashMap<>();
         long time = System.currentTimeMillis();
-        headers.put("xt-validate-timestamp", String.valueOf(time));
-        headers.put("xt-validate-appkey", apikey);
-        headers.put("xt-validate-algorithms", "HmacSHA256");
-        headers.put("xt-validate-signature", HttpUtil.getContractSignature(
+        headers.put("validate-timestamp", String.valueOf(time));
+        headers.put("validate-appkey", apikey);
+        headers.put("validate-algorithms", "HmacSHA256");
+        headers.put("validate-signature", HttpUtil.getContractSignature(
                 path, null, body, apikey, secretKey, time
         ));
         String text = HttpUtil.post(URL + path, headers, body);
@@ -95,10 +95,10 @@ public class UserRestAPI {
         // 签名
         Map<String, String> headers = new HashMap<>();
         long time = System.currentTimeMillis();
-        headers.put("xt-validate-timestamp", String.valueOf(time));
-        headers.put("xt-validate-appkey", apikey);
-        headers.put("xt-validate-algorithms", "HmacSHA256");
-        headers.put("xt-validate-signature", HttpUtil.getContractSignature(
+        headers.put("validate-timestamp", String.valueOf(time));
+        headers.put("validate-appkey", apikey);
+        headers.put("validate-algorithms", "HmacSHA256");
+        headers.put("validate-signature", HttpUtil.getContractSignature(
                 path, null, body, apikey, secretKey, time
         ));
         String text = HttpUtil.post(URL + path, headers, body);
@@ -113,10 +113,10 @@ public class UserRestAPI {
         // 签名
         Map<String, String> headers = new HashMap<>();
         long time = System.currentTimeMillis();
-        headers.put("xt-validate-timestamp", String.valueOf(time));
-        headers.put("xt-validate-appkey", apikey);
-        headers.put("xt-validate-algorithms", "HmacSHA256");
-        headers.put("xt-validate-signature", HttpUtil.getContractSignature(
+        headers.put("validate-timestamp", String.valueOf(time));
+        headers.put("validate-appkey", apikey);
+        headers.put("validate-algorithms", "HmacSHA256");
+        headers.put("validate-signature", HttpUtil.getContractSignature(
                 path, params, null, apikey, secretKey, time
         ));
         String text = HttpUtil.get(URL + path, headers, params);
@@ -139,10 +139,10 @@ public class UserRestAPI {
         // 签名
         Map<String, String> headers = new HashMap<>();
         long time = System.currentTimeMillis();
-        headers.put("xt-validate-timestamp", String.valueOf(time));
-        headers.put("xt-validate-appkey", apikey);
-        headers.put("xt-validate-algorithms", "HmacSHA256");
-        headers.put("xt-validate-signature", HttpUtil.getContractSignature(
+        headers.put("validate-timestamp", String.valueOf(time));
+        headers.put("validate-appkey", apikey);
+        headers.put("validate-algorithms", "HmacSHA256");
+        headers.put("validate-signature", HttpUtil.getContractSignature(
                 path, params, null, apikey, secretKey, time
         ));
         String text = HttpUtil.get(URL + path, headers, params);
@@ -158,10 +158,10 @@ public class UserRestAPI {
         // 签名
         Map<String, String> headers = new HashMap<>();
         long time = System.currentTimeMillis();
-        headers.put("xt-validate-timestamp", String.valueOf(time));
-        headers.put("xt-validate-appkey", apikey);
-        headers.put("xt-validate-algorithms", "HmacSHA256");
-        headers.put("xt-validate-signature", HttpUtil.getContractSignature(
+        headers.put("validate-timestamp", String.valueOf(time));
+        headers.put("validate-appkey", apikey);
+        headers.put("validate-algorithms", "HmacSHA256");
+        headers.put("validate-signature", HttpUtil.getContractSignature(
                 path, params, null, apikey, secretKey, time
         ));
         String text = HttpUtil.get(URL + path, headers, params);
@@ -182,10 +182,10 @@ public class UserRestAPI {
         // 签名
         Map<String, String> headers = new HashMap<>();
         long time = System.currentTimeMillis();
-        headers.put("xt-validate-timestamp", String.valueOf(time));
-        headers.put("xt-validate-appkey", apikey);
-        headers.put("xt-validate-algorithms", "HmacSHA256");
-        headers.put("xt-validate-signature", HttpUtil.getContractSignature(
+        headers.put("validate-timestamp", String.valueOf(time));
+        headers.put("validate-appkey", apikey);
+        headers.put("validate-algorithms", "HmacSHA256");
+        headers.put("validate-signature", HttpUtil.getContractSignature(
                 path, params, null, apikey, secretKey, time
         ));
         String text = HttpUtil.get(URL + path, headers, params);
@@ -200,10 +200,10 @@ public class UserRestAPI {
         // 签名
         Map<String, String> headers = new HashMap<>();
         long time = System.currentTimeMillis();
-        headers.put("xt-validate-timestamp", String.valueOf(time));
-        headers.put("xt-validate-appkey", apikey);
-        headers.put("xt-validate-algorithms", "HmacSHA256");
-        headers.put("xt-validate-signature", HttpUtil.getContractSignature(
+        headers.put("validate-timestamp", String.valueOf(time));
+        headers.put("validate-appkey", apikey);
+        headers.put("validate-algorithms", "HmacSHA256");
+        headers.put("validate-signature", HttpUtil.getContractSignature(
                 path, params, null, apikey, secretKey, time
         ));
         String text = HttpUtil.get(URL + path, headers, params);
@@ -222,10 +222,10 @@ public class UserRestAPI {
         // 签名
         Map<String, String> headers = new HashMap<>();
         long time = System.currentTimeMillis();
-        headers.put("xt-validate-timestamp", String.valueOf(time));
-        headers.put("xt-validate-appkey", apikey);
-        headers.put("xt-validate-algorithms", "HmacSHA256");
-        headers.put("xt-validate-signature", HttpUtil.getContractSignature(
+        headers.put("validate-timestamp", String.valueOf(time));
+        headers.put("validate-appkey", apikey);
+        headers.put("validate-algorithms", "HmacSHA256");
+        headers.put("validate-signature", HttpUtil.getContractSignature(
                 path, null, body, apikey, secretKey, time
         ));
         String text = HttpUtil.post(URL + path, headers, body);
@@ -242,10 +242,10 @@ public class UserRestAPI {
         // 签名
         Map<String, String> headers = new HashMap<>();
         long time = System.currentTimeMillis();
-        headers.put("xt-validate-timestamp", String.valueOf(time));
-        headers.put("xt-validate-appkey", apikey);
-        headers.put("xt-validate-algorithms", "HmacSHA256");
-        headers.put("xt-validate-signature", HttpUtil.getContractSignature(
+        headers.put("validate-timestamp", String.valueOf(time));
+        headers.put("validate-appkey", apikey);
+        headers.put("validate-algorithms", "HmacSHA256");
+        headers.put("validate-signature", HttpUtil.getContractSignature(
                 path, params, null, apikey, secretKey, time
         ));
         String text = HttpUtil.get(URL + path, headers, params);
@@ -265,10 +265,10 @@ public class UserRestAPI {
         // 签名
         Map<String, String> headers = new HashMap<>();
         long time = System.currentTimeMillis();
-        headers.put("xt-validate-timestamp", String.valueOf(time));
-        headers.put("xt-validate-appkey", apikey);
-        headers.put("xt-validate-algorithms", "HmacSHA256");
-        headers.put("xt-validate-signature", HttpUtil.getContractSignature(
+        headers.put("validate-timestamp", String.valueOf(time));
+        headers.put("validate-appkey", apikey);
+        headers.put("validate-algorithms", "HmacSHA256");
+        headers.put("validate-signature", HttpUtil.getContractSignature(
                 path, null, body, apikey, secretKey, time
         ));
         String text = HttpUtil.post(URL + path, headers, body);
@@ -286,10 +286,10 @@ public class UserRestAPI {
         // 签名
         Map<String, String> headers = new HashMap<>();
         long time = System.currentTimeMillis();
-        headers.put("xt-validate-timestamp", String.valueOf(time));
-        headers.put("xt-validate-appkey", apikey);
-        headers.put("xt-validate-algorithms", "HmacSHA256");
-        headers.put("xt-validate-signature", HttpUtil.getContractSignature(
+        headers.put("validate-timestamp", String.valueOf(time));
+        headers.put("validate-appkey", apikey);
+        headers.put("validate-algorithms", "HmacSHA256");
+        headers.put("validate-signature", HttpUtil.getContractSignature(
                 path, null, body, apikey, secretKey, time
         ));
         String text = HttpUtil.post(URL + path, headers, body);
@@ -308,10 +308,10 @@ public class UserRestAPI {
 
         Map<String, String> headers = new HashMap<>();
         long time = System.currentTimeMillis();
-        headers.put("xt-validate-timestamp", String.valueOf(time));
-        headers.put("xt-validate-appkey", apikey);
-        headers.put("xt-validate-algorithms", "HmacSHA256");
-        headers.put("xt-validate-signature", HttpUtil.getContractSignature(
+        headers.put("validate-timestamp", String.valueOf(time));
+        headers.put("validate-appkey", apikey);
+        headers.put("validate-algorithms", "HmacSHA256");
+        headers.put("validate-signature", HttpUtil.getContractSignature(
                 path, params, null, apikey, secretKey, time
         ));
         String text = HttpUtil.get(URL + path, headers, params);
@@ -332,10 +332,10 @@ public class UserRestAPI {
         // 签名
         Map<String, String> headers = new HashMap<>();
         long time = System.currentTimeMillis();
-        headers.put("xt-validate-timestamp", String.valueOf(time));
-        headers.put("xt-validate-appkey", apikey);
-        headers.put("xt-validate-algorithms", "HmacSHA256");
-        headers.put("xt-validate-signature", HttpUtil.getContractSignature(
+        headers.put("validate-timestamp", String.valueOf(time));
+        headers.put("validate-appkey", apikey);
+        headers.put("validate-algorithms", "HmacSHA256");
+        headers.put("validate-signature", HttpUtil.getContractSignature(
                 path, null, body, apikey, secretKey, time
         ));
         String text = HttpUtil.post(URL + path, headers, body);
@@ -354,10 +354,10 @@ public class UserRestAPI {
 
         Map<String, String> headers = new HashMap<>();
         long time = System.currentTimeMillis();
-        headers.put("xt-validate-timestamp", String.valueOf(time));
-        headers.put("xt-validate-appkey", apikey);
-        headers.put("xt-validate-algorithms", "HmacSHA256");
-        headers.put("xt-validate-signature", HttpUtil.getContractSignature(
+        headers.put("validate-timestamp", String.valueOf(time));
+        headers.put("validate-appkey", apikey);
+        headers.put("validate-algorithms", "HmacSHA256");
+        headers.put("validate-signature", HttpUtil.getContractSignature(
                 path, null, body, apikey, secretKey, time
         ));
         String text = HttpUtil.post(URL + path, headers, body);
